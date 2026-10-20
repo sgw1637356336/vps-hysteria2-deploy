@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "ssh": {
+    "host": "203.0.113.10",
+    "port": 22,
+    "username": "root",
+    "password_env": "VPS_SSH_PASSWORD",
+    "key_file": "",
+    "trust_on_first_use": true
+  },
+  "domain": "node.example.com",
+  "server": {
+    "hy2_port": 443,
+    "hop_range": "20000-20100",
+    "panel_port": 0
+  },
+  "panel": {
+    "username": "",
+    "password": ""
+  },
+  "client": {
+    "name": "v2rayn",
+    "auth": "",
+    "obfs_password": ""
+  },
+  "tls": {
+    "mode": "auto",
+    "email": "admin@example.com"
+  },
+  "self_test": true,
+  "runtime": "./runtime"
+}

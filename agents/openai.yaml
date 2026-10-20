@@ -1,0 +1,4 @@
+interface:
+  display_name: "VPS Hysteria2 搭建"
+  short_description: "自动部署 3X-UI + Hysteria2（443/UDP、Salamander、端口跳跃）并做真实客户端验收"
+  default_prompt: "使用 $vps-hysteria2-deploy，根据我提供的 VPS 登录资料和域名完成部署，开启 Salamander 与端口跳跃，交付 v2rayN 链接、订阅和二维码。"
