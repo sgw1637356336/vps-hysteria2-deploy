@@ -34,14 +34,16 @@ requirements.txt
 ## 安装
 
 ```bash
-git clone https://github.com/<you>/vps-hysteria2-deploy.git
+git clone https://github.com/sgw1637356336/vps-hysteria2-deploy.git
 cd vps-hysteria2-deploy
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt        # Windows: .venv\Scripts\pip
 ```
 
-作为 Agent Skill 使用时，把仓库放到 skills 目录（例如 `~/.agents/skills/vps-hysteria2-deploy`），
-`SKILL.md` 的 frontmatter 会被自动识别。
+作为 Agent Skill 使用时，把仓库放到 skills 目录（例如 `~/.agents/skills/vps-hysteria2-deploy`，
+Claude Code 是 `~/.claude/skills/`），`SKILL.md` 的 frontmatter 会被自动识别。
+
+**多平台、多 Agent、常见报错的完整步骤见 [INSTALL.md](INSTALL.md)。**
 
 ## 用法
 
